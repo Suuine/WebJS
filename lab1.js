@@ -18,16 +18,20 @@ switch(type1){
             case "leg":{
                 let b = arg2;
                 let c = Math.sqrt(a**2 + b**2); 
-                if(c<a || c<b)  {
-                    console.log("triangle is not triangle bc hypotenuse is smaller than leg");
+                if(c<=a || c<=b)  {
+                    console.log("triangle is not triangle bc hypotenuse is smaller than leg or same");
                     return "failed";
                 }             
-                if(!(a+b>=c && a+c>=b && b+c>=a)){
+                if(!(a+b>=c || a+c>=b || b+c>=a)){
                     console.log("triangle is not triangle bc it is not 3 good sides");
                     return "failed";
                 } 
                 let alpha = Math.atan(a/b) * (180/Math.PI);
                 let beta = Math.atan(b/a) * (180/Math.PI);
+                if(alpha <=0 || beta <=0){
+                    console.log("Angle(s) going to 0");
+                    return "failed";
+                }
                 
                 console.log("a =", a);
                 console.log("b =", b);
@@ -40,17 +44,21 @@ switch(type1){
             case "hypotenuse":{
                 let c = arg2;
                 let b = Math.sqrt(c**2 - a**2);
-                if(c<a || c<b)  {
-                    console.log("triangle is not triangle bc hypotenuse is smaller than leg");
+                if(c<=a || c<=b)  {
+                    console.log("triangle is not triangle bc hypotenuse is smaller than leg or same");
                     return "failed";
-                }             
-                if(!(a+b>=c && a+c>=b && b+c>=a)){
+                }                
+                if(!(a+b>=c || a+c>=b || b+c>=a)){
                     console.log("triangle is not triangle bc it is not 3 good sides");
                     return "failed";
                 } 
                 let alpha = Math.atan(a/b) * (180/Math.PI);
                 let beta = Math.atan(b/a) * (180/Math.PI);
-                
+                if(alpha <=0 || beta <=0){
+                    console.log("Angle(s) going to 0");
+                    return "failed";
+                }
+
                 console.log("a =", a);
                 console.log("b =", b);
                 console.log("c =", c);
@@ -67,15 +75,19 @@ switch(type1){
                 }
                 let c = a / Math.cos(alpha * Math.PI / 180);
                 let b = Math.sqrt(c**2 - a**2);
-                if(c<a || c<b)  {
-                    console.log("triangle is not triangle bc hypotenuse is smaller than leg");
-                    return"failed";
-                }             
-                if(!(a+b>=c && a+c>=b && b+c>=a)){
+                if(c<=a || c<=b)  {
+                    console.log("triangle is not triangle bc hypotenuse is smaller than leg or same");
+                    return "failed";
+                }                 
+                if(!(a+b>=c || a+c>=b || b+c>=a)){
                     console.log("triangle is not triangle bc it is not 3 good sides");
                     return "failed";
                 } 
                 let beta = 90 - alpha;
+                if(alpha <=0 || beta <=0){
+                    console.log("Angle(s) going to 0");
+                    return "failed";
+                }
 
                 console.log("a =", a);
                 console.log("b =", b);
@@ -93,16 +105,20 @@ switch(type1){
                 }
                 let c = a / Math.sin(beta * Math.PI / 180);
                 let b = Math.sqrt(c**2 - a**2);
-                if(c<a || c<b)  {
-                    console.log("triangle is not triangle bc hypotenuse is smaller than leg");
+                if(c<=a || c<=b)  {
+                    console.log("triangle is not triangle bc hypotenuse is smaller than leg or same");
                     return "failed";
-
-                }             
-                if(!(a+b>=c && a+c>=b && b+c>=a)){
+                }                
+                if(!(a+b>=c || a+c>=b || b+c>=a)){
                     console.log("triangle is not triangle bc it is not 3 good sides");
                     return "failed";
                 } 
                 let alpha = 90 - beta;
+                if(alpha <=0 || beta <=0){
+                    console.log("Angle(s) going to 0");
+                    return "failed";
+                }
+
                 console.log("a =", a);
                 console.log("b =", b);
                 console.log("c =", c);
@@ -122,16 +138,20 @@ switch(type1){
             case "leg":{
                 let a = arg2;
                 let b = Math.sqrt(c**2 - a**2);
-                if(c<a || c<b)  {
-                    console.log("triangle is not triangle bc hypotenuse is smaller than leg");
+                if(c<=a || c<=b)  {
+                    console.log("triangle is not triangle bc hypotenuse is smaller than leg or same");
                     return "failed";
-                }             
-                if(!(a+b>=c && a+c>=b && b+c>=a)){
+                }                
+                if(!(a+b>=c || a+c>=b || b+c>=a)){
                     console.log("triangle is not triangle bc it is not 3 good sides");
                     return "failed";
                 } 
                 let alpha = Math.atan(a/b) * (180/Math.PI);
                 let beta = Math.atan(b/a) * (180/Math.PI);
+                if(alpha <=0 || beta <=0){
+                    console.log("Angle(s) going to 0");
+                    return "failed";
+                }
                 
                 console.log("a =", a);
                 console.log("b =", b);
@@ -147,14 +167,18 @@ switch(type1){
                     return "failed";
                 }
                 let beta = 90 - alpha;
+                if(alpha <=0 || beta <=0){
+                    console.log("Angle(s) going to 0");
+                    return "failed";
+                }
 
                 let a = c * Math.sin(alpha * Math.PI / 180);
                 let b = c * Math.sin(beta * Math.PI / 180);
-                if(c<a || c<b)  {
-                    console.log("triangle is not triangle bc hypotenuse is smaller than leg");
+                if(c<=a || c<=b)  {
+                    console.log("triangle is not triangle bc hypotenuse is smaller than leg or same");
                     return "failed";
-                }             
-                if(!(a+b>=c && a+c>=b && b+c>=a)){
+                }                 
+                if(!(a+b>=c || a+c>=b || b+c>=a)){
                     console.log("triangle is not triangle bc it is not 3 good sides");
                     return "failed";
                 } 
@@ -179,15 +203,19 @@ switch(type1){
                 let a = arg2;
                 let c = a / Math.cos(alpha * Math.PI / 180);
                 let b = Math.sqrt(c**2 - a**2);
-                if(c<a || c<b)  {
-                    console.log("triangle is not triangle bc hypotenuse is smaller than leg");
+                if(c<=a || c<=b)  {
+                    console.log("triangle is not triangle bc hypotenuse is smaller than leg or same");
                     return "failed";
-                }             
-                if(!(a+b>=c && a+c>=b && b+c>=a)){
+                }                 
+                if(!(a+b>=c || a+c>=b || b+c>=a)){
                     console.log("triangle is not triangle bc it is not 3 good sides");
                     return "failed";
-                } 
+                }  
                 let beta = 90 - alpha;
+                if(alpha <=0 || beta <=0){
+                    console.log("Angle(s) going to 0");
+                    return "failed";
+                }
 
                 console.log("a =", a);
                 console.log("b =", b);
@@ -209,15 +237,20 @@ switch(type1){
                 let a = arg2;
                 let c = a / Math.sin(beta * Math.PI / 180);
                 let b = Math.sqrt(c**2 - a**2);
-                if(c<a || c<b)  {
-                    console.log("triangle is not triangle bc hypotenuse is smaller than leg");
+                if(c<=a || c<=b)  {
+                    console.log("triangle is not triangle bc hypotenuse is smaller than leg or same");
                     return "failed";
-                }             
-                if(!(a+b>=c && a+c>=b && b+c>=a)){
+                }                
+                if(!(a+b>=c || a+c>=b || b+c>=a)){
                     console.log("triangle is not triangle bc it is not 3 good sides");
                     return "failed";
                 } 
                 let alpha = 90 - beta;
+                if(alpha <=0 || beta <=0){
+                    console.log("Angle(s) going to 0");
+                    return "failed";
+                }
+
                 console.log("a =", a);
                 console.log("b =", b);
                 console.log("c =", c);
@@ -237,17 +270,21 @@ switch(type1){
             case "hypotenuse":{
                 let c = arg2;
                 let beta = 90 - alpha;
+                if(alpha <=0 || beta <=0){
+                    console.log("Angle(s) going to 0");
+                    return "failed";
+                }
 
                 let a = c * Math.sin(alpha * Math.PI / 180);
                 let b = c * Math.sin(beta * Math.PI / 180); 
-                if(c<a || c<b)  {
-                    console.log("triangle is not triangle bc hypotenuse is smaller than leg");
+                if(c<=a || c<=b)  {
+                    console.log("triangle is not triangle bc hypotenuse is smaller than leg or same");
                     return "failed";
-                }             
-                if(!(a+b>=c && a+c>=b && b+c>=a)){
+                }                 
+                if(!(a+b>=c || a+c>=b || b+c>=a)){
                     console.log("triangle is not triangle bc it is not 3 good sides");
                     return "failed";
-                } 
+                }  
 
                 console.log("a =", a);
                 console.log("b =", b);
