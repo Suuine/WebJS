@@ -26,6 +26,8 @@ console.log("Array for Bubble sort");
   console.log(fullArr);
   console.log("Swaps: " + sortApp.swaps);
   sortApp.swaps = 0;
+  console.log("Comparisons: " + sortApp.comapisons);
+  sortApp.comapisons = 0;
 
   // MinElementSort
   console.log("Array for MinElementSort");
@@ -53,6 +55,8 @@ console.log("Array for Bubble sort");
   console.log(fullArr);
   console.log("Swaps: " + sortApp.swaps);
   sortApp.swaps = 0;
+  console.log("Comparisons: " + sortApp.comapisons);
+  sortApp.comapisons = 0;
 
   // InsertionSort
   console.log("Array for InsertionSort");
@@ -80,6 +84,8 @@ console.log("Array for Bubble sort");
   console.log(fullArr);
   console.log("Swaps: " + sortApp.swaps);
   sortApp.swaps = 0;
+  console.log("Comparisons: " + sortApp.comapisons);
+  sortApp.comapisons = 0;
 
   // ShellSort
   console.log("Array for ShellSort");
@@ -107,6 +113,8 @@ console.log("Array for Bubble sort");
   console.log(fullArr);
   console.log("Swaps: " + sortApp.swaps);
   sortApp.swaps = 0;
+  console.log("Comparisons: " + sortApp.comapisons);
+  sortApp.comapisons = 0;
 
   // QuickSort
   console.log("Array for QuickSort");
@@ -134,8 +142,12 @@ console.log("Array for Bubble sort");
   console.log(fullArr);
   console.log("Pushes: " + sortApp.swaps);
   sortApp.swaps = 0;
+  console.log("Comparisons: " + sortApp.comapisons);
+  sortApp.comapisons = 0;
 
   // with undefined elements
+  console.log("%cExplanation what is going on with undefined elements: undefined elements are 'cutted' off from array and then added to the end of the sorted array", "color:yellow;");
+
   // Bubbel sort
   console.log("Array for Bubble sort with undefined elements");
 
@@ -159,6 +171,8 @@ console.log("Array for Bubble sort");
   console.log(fullArr);
   console.log("Swaps: " + sortApp.swaps);
   sortApp.swaps = 0;
+  console.log("Comparisons: " + sortApp.comapisons);
+  sortApp.comapisons = 0;
 
   // MinElementSort
   console.log("Array for MinElementSort with undefined elements");
@@ -183,6 +197,8 @@ console.log("Array for Bubble sort");
   console.log(fullArr);
   console.log("Swaps: " + sortApp.swaps);
   sortApp.swaps = 0;
+  console.log("Comparisons: " + sortApp.comapisons);
+  sortApp.comapisons = 0;
 
   //InsertionSort
   console.log("Array for InsertionSort with undefined elements");
@@ -207,6 +223,8 @@ console.log("Array for Bubble sort");
   console.log(fullArr);
   console.log("Swaps: " + sortApp.swaps);
   sortApp.swaps = 0;
+  console.log("Comparisons: " + sortApp.comapisons);
+  sortApp.comapisons = 0;
 
   // ShellSort
   console.log("Array for ShellSort with undefined elements");
@@ -231,6 +249,8 @@ console.log("Array for Bubble sort");
   console.log(fullArr);
   console.log("Swaps: " + sortApp.swaps);
   sortApp.swaps = 0;
+  console.log("Comparisons: " + sortApp.comapisons);
+  sortApp.comapisons = 0;
 
   // QuickSort
   console.log("Array for QuickSort with undefined elements");
@@ -255,4 +275,6 @@ console.log("Array for Bubble sort");
   console.log(fullArr);
   console.log("Pushes: " + sortApp.swaps);
   sortApp.swaps = 0;
+  console.log("Comparisons: " + sortApp.comapisons);
+  sortApp.comapisons = 0;
 })();
