@@ -1,6 +1,7 @@
 (function(window){
     let sortApp = {};
     sortApp.swaps = 0; 
+    sortApp.comapisons = 0;
     let undefinedElem  = [];
 
     function takeUndefinded(arr) {
@@ -28,6 +29,7 @@
                         sortApp.swaps++; 
                     }
                 }
+                sortApp.comapisons++;
             }
         }
 
@@ -51,13 +53,14 @@
                         min = j;
                     }
                 }
+                sortApp.comapisons++;
             }
             if (min !== i) {
                 let tmp = arr[i];
                 arr[i] = arr[min];
                 arr[min] = tmp;
                 sortApp.swaps++; 
-            }
+            }           
         }
 
         arr = arr.concat(undefinedElem);
@@ -88,6 +91,7 @@
                 }
                 arr[j + 1] = key;
             }
+            sortApp.comapisons++;
         }
 
         arr = arr.concat(undefinedElem);
@@ -115,7 +119,9 @@
                     }
                 }
                 arr[j] = temp;
+                sortApp.comapisons++;
             }
+            
         }
 
         arr = arr.concat(undefinedElem);
@@ -142,14 +148,16 @@
                         } else {
                             right.push(arr[i]);
                         }
+                        sortApp.swaps++; 
                     } else if (way === 'desc') {
                         if (arr[i] >= pivot) {
                             left.push(arr[i]);
                         } else {
                             right.push(arr[i]);
                         }
-                    }
-                    sortApp.swaps++; 
+                        sortApp.swaps++; 
+                    }   
+                    sortApp.comapisons++;                 
                 }
         
                 return [].concat(
