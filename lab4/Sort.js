@@ -79,15 +79,19 @@
                     arr[j + 1] = arr[j];
                     j = j - 1;
                     sortApp.swaps++; 
+                    sortApp.comapisons++;
                 }
                 arr[j + 1] = key;
             } else if(way === 'desc') { 
                 let key = arr[i];
                 let j = i - 1;
+               
+
                 while (j >= 0 && arr[j] < key) {
                     arr[j + 1] = arr[j];
                     j = j - 1;
                     sortApp.swaps++; 
+                    sortApp.comapisons++;
                 }
                 arr[j + 1] = key;
             }
