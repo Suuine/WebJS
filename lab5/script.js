@@ -102,21 +102,28 @@ function gaming(initialSeconds, size, addPos) {
 }
 
 function checkTimer(seconds) {
+  if (timerInterval) clearInterval(timerInterval);
+
+  currentSeconds = seconds;
   timerDisplay.style.display = "block";
+  updateTimerDisplay(currentSeconds);
 
-  if (timerInterval) clearInterval(timerInterval); 
+  timerInterval = setInterval(handleTimerTick, 1000);
+}
 
-  timerDisplay.textContent = `Time: ${seconds}s`;
-  
-  timerInterval = setInterval(() => {
-    seconds--;
-    timerDisplay.textContent = `Time: ${seconds}s`;
-    if (seconds <= 0) {
-      clearInterval(timerInterval);
-      alert("Time's up! Your score is: " + score);
-      resetGame();
-    }
-  }, 1000);
+function handleTimerTick() {
+  currentSeconds--;
+  updateTimerDisplay(currentSeconds);
+
+  if (currentSeconds <= 0) {
+    clearInterval(timerInterval);
+    alert("Time's up! Your score is: " + score);
+    resetGame();
+  }
+}
+
+function updateTimerDisplay(seconds) {
+  timerDisplay.textContent = "Time: " + seconds + "s";
 }
 
 function resetGame() {
