@@ -49,7 +49,7 @@ function startGame(color, difficulty) {
     moveBlockWithinBounds(block, 50);
     gaming(4, 50, 100);   
   }
-  else if (difficulty === "medium") {
+  else if (difficulty === "middle") {
     moveBlockWithinBounds(block, 30);
     gaming(3, 30, 200); 
   }
