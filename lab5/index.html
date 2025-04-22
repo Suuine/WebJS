@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My application</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>PIXEL HUNT</h1>
+    <div class="controls-container">		
+		<div class="select-wrapper">
+			<label for="color-select">Your color</label> <br />
+			<select name="select" id="color-select">
+				<option value="">Select a color</option>
+				<option value="red">Red</option>
+				<option value="green">Green</option>
+				<option value="blue">Blue</option>
+			</select>
+		</div> 
+
+		<div class="select-wrapper">
+			<label for="dificalty-select">Your difficulty</label> <br />
+			<select name="select" id="dificalty-select">
+				<option value="">Select a difficulty</option>
+				<option value="easy">Easy</option>
+				<option value="middle">Middle</option>
+				<option value="hard">Hard</option>
+			</select>
+		</div> 
+	
+	<div class="button-wrapper"> 
+		<button id="start-button">Start</button>
+	</div>
+	
+	</div>
+	<div id = "block"></div>
+	<div id="timer">Time: </div>
+<script src="script.js"></script>
+</body>
+</html>

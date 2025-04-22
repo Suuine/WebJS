@@ -1,0 +1,117 @@
+h1{
+    font-family: Arial, sans-serif;
+    color: #461c1c;
+    text-align: center;
+}
+label{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #333;
+    font-size: large;
+}
+p{
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+input[type="text"] {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    color: #333;
+    width: 200px;
+    margin: 10px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    cursor: text;
+}
+input[type="text"]:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+    #color-select, #dificalty-select {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    color: #333;
+    width: 200px;
+    margin: 10px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    }
+  
+    #color-select:focus, #dificalty-select:focus {
+        outline: none;
+        border-color: #4a90e2;
+        box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+    }
+    
+    #color-select option, #dificalty-select option {
+        padding: 8px;
+        background-color: white;
+        color: #333;
+    }
+
+  .controls-container {
+    display: flex;
+    align-items: flex-end; 
+    gap: 20px;
+  }
+
+
+
+
+.select-wrapper {
+    display: flex;
+    flex-direction: column; 
+}
+
+.button-wrapper {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 8px; 
+}
+
+#start-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #29ffd4;
+    color: rgba(0, 0, 0, 0.629);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 40px; 
+}
+
+#start-button:hover {
+    transform: scale(1.05);
+    background-color: #26eec6;
+}
+
+#block {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the block */
+    display: none; /* Hidden by default */
+}
+
+#timer {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    display: none; /* Hidden by default */
+}
+
+/* Class to hide elements */
+.hidden {
+    display: none !important;
+}
