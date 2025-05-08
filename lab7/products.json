@@ -1,0 +1,155 @@
+{
+    "Parfums": [
+        {
+        "id": 1,
+        "name": "Cherry Smoke",
+        "brand": "Tom Ford",
+        "shortname": "Cherry",
+        "price": 3450,
+        "notes": "Luxurious cherry opens the aroma, its balanced sweetness delicately emphasized by the bittersweet suede nuances of saffron.",
+        "image": "https://www.brocard.ua/media/catalog/product/cache/V150961103/eyJ3Ijo1MDAsImgiOjUwMCwibyI6ImNhdGFsb2dcL3Byb2R1Y3RcL1wvOFwvOFwvODg4MDY2MTQzMTcyXzIuanBnIn0=/tom-ford-cherry-smoke.webp"
+        },
+        {
+            "id": 2,
+            "name": "Devil's Intrigue",
+            "brand": "Haute Fragrance Company",
+            "shortname": "Intrigue",
+            "price": 7540,
+            "notes": "The elegant aroma is opened by the wonderful apricot-peach overtones of osmanthus, highlighted by the tart notes of white tea.",
+            "image": "https://www.brocard.ua/media/catalog/product/cache/V190341217/eyJ3IjoxMDAwLCJoIjoxMDAwLCJvIjoiY2F0YWxvZ1wvcHJvZHVjdFwvXC8zXC83XC8zNzcwMDE0NTczMTc5XzEuanBnIn0=/haute-fragrance-company-devil-s-intrigue.webp"
+            },
+            {
+                "id": 3,
+                "name": "Gaultier Divine",
+                "brand": "Jean Paul Gaultier",
+                "shortname": "Divine",
+                "price": 5440,
+                "notes": "The top of the olfactory pyramid: the marine freshness of the calypso molecule, saturated with ozone and salt spray, with its delicate watermelon accent, a juicy accord of red berries and golden bergamot.",
+                "image": "https://www.brocard.ua/media/catalog/product/cache/V157533151/eyJ3IjoxMDAwLCJoIjoxMDAwLCJvIjoiY2F0YWxvZ1wvcHJvZHVjdFwvXC84XC80XC84NDM1NDE1MDc2ODIxXzEuanBnIn0=/jean-paul-gaultier-gaultier-divine.webp"
+            },
+            {
+                "id": 4,
+                "name": "Black Opium Over Red",
+                "brand": "Yves Saint Laurent",
+                "shortname": "Black&Red",
+                "price": 2300,
+                "notes": "The aroma opens with a wonderful liqueur cherry, its ripe freshness delicately emphasized by green mandarin.",
+                "image": "https://www.brocard.ua/media/catalog/product/cache/V166275210/eyJ3IjoxMDAwLCJoIjoxMDAwLCJvIjoiY2F0YWxvZ1wvcHJvZHVjdFwvXC8zXC82XC8zNjE0Mjc0MDc2MjAyXzEuanBnIn0=/yves-saint-laurent-black-opium-over-red.webp"
+            },
+            {
+                "id": 5,
+                "name": "Miss Dior",
+                "brand": "DIOR",
+                "shortname": "Miss",
+                "price": 3560,
+                "notes": "The perfume composition opens with a fresh accord of powdery iris, spicy peony, and crystal lily of the valley.",
+                "image": "https://www.brocard.ua/media/catalog/product/cache/V14027996/eyJ3IjoxMDAwLCJoIjoxMDAwLCJvIjoiY2F0YWxvZ1wvcHJvZHVjdFwvXC8zXC8zXC8zMzQ4OTAxNTcxNDMyXzEuanBnIn0=/dior-miss-dior.webp"
+            }
+    ],
+
+    "Lotions":[
+        {
+            "id": 1,
+            "name": "Luxury Dadi'",
+            "brand": "Dadi's Nails",
+            "shortname": "Dadi",
+            "price": 1040,
+            "notes": "Luxury Dadi' Lotion for hands and body contains only organic ingredients, including olive, avocado, jojoba and vitamin E oils.",
+            "image": "https://funkynails.com.ua/content/images/27/821x1800l80mc0/31136025758227.webp"
+        },
+        {
+            "id": 2,
+            "name": "DSD De Luxe'",
+            "brand": "DSD de Luxe",
+            "shortname": "DSD",
+            "price": 1000,
+            "notes": "DSD De Luxe 3.4.3A lotion helps reduce hair loss by reviving hair follicle cells and making hair stronger and healthier.",
+            "image": "https://kabani.com.ua/13257-medium_default/loson-fresh-cells-de-lyuks-dsd-de-luxe-343-a-fresh-cells-wondercell-lotion.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Body Lotion Peony & Blush Suede",
+            "brand": "Jo Malone London",
+            "shortname": "Peony & Blush",
+            "price": 1240,
+            "notes": "Brighten up your daily routine with silky body and hand lotion Peony&Blush Suede. Thanks to coconut oil and hyaluronic acid, the lotion is easily absorbed, smoothes and moisturizes the skin. The skin smells like a luxurious floral fragrance.",
+            "image": "https://aromateque.com.ua/media/catalog/product/cache/6ec7e2f4a52646abf591fc3ef61d07ef/6/9/690251053797.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "La Sultane De Saba Ayurvedic Shower Cream",
+            "brand": "Shane",
+            "shortname": "Sultane De Saba",
+            "price": 1540,
+            "notes": "The enchanting composition of aromas based on vanilla, patchouli and amber will transport you to a secret and cozy garden. You will instantly forget about all your worries, because this shower cream gel will make you relax and let go of all negative thoughts.",
+            "image": "https://shine-bright.com.ua/image/cache/webp/catalog/products/Sultane%20De%20Saba/SLTN_49/shower_cream_ayurvedic-600x600.webp"
+        },
+        {
+            "id": 5,
+            "name": "Drunk Elephant Sili",
+            "brand": "Amoris",
+            "shortname": "Sili",
+            "price": 3430,
+            "notes": "",
+            "image": "https://amoris.com.ua/image/cache/webp/brands/Drunk_Elephant/11461/2-1000x1000.webp"
+        }
+
+    ],
+
+    "Shampoo":[
+        {
+            "id": 1,
+            "name": "Nubea Sursum",
+            "brand": "Sursum",
+            "shortname": "Nubea",
+            "price": 1430,
+            "notes": "Nourishing shampoo against hair loss based on essential oils of verbena, rosemary, lemon, bergamot, sage and lavender, extracts of African plum and saw palmetto, and vitamin E.",
+            "image": "https://nubea.com.ua/content/images/20/1799x1799l80mc0/53166724257291.webp"
+        },
+        {
+            "id": 2,
+            "name": "Hydro Intensive Repair Shampoo",
+            "brand": "HADAT",
+            "shortname": "Hydro Intensive",
+            "price": 1360,
+            "notes": "The shampoo also protects the color, facilitates styling and strengthens the hair, making it more elastic and healthy.",
+            "image": "https://ingoods.biz/assets/components/phpthumbof/cache/Hydro-Intensive-Repair-Shampoo-800.a928a825d01b4a569a05ffccd73c10341054.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Canapa Wash",
+            "brand": "PHILIP MARTINS",
+            "shortname": "Canapa",
+            "price": 2350,
+            "notes": "",
+            "image": "https://beauty-p.com.ua/image/cachewebp/catalog/hair/1/CANAPA-WASH-1000-237-800x1000.webp"
+        },
+        {
+            "id": 4,
+            "name": "Shampoo for dry hair",
+            "brand": "L'Occitane",
+            "shortname": "Dry Hair",
+            "price": 7900,
+            "notes": "",
+            "image": "https://ingoods.biz/assets/components/phpthumbof/cache/Hydro-Nourishing-Moisture-Shampoo-250.a928a825d01b4a569a05ffccd73c10341050.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Signature Shampoo",
+            "brand": "Oribe",
+            "shortname": "Signature",
+            "price": 3500,
+            "notes": "This premium product provides gentle cleansing, deep nutrition and reliable protection, preserving the natural beauty of the hair. Thanks to the unique ingredients and Oribe Signature complex, the shampoo delicately cares for hair, making it smooth, silky and healthy.",
+            "image": "https://oribe.com.ua/content/images/32/900x900l80mc0/46453280205602.webp"
+        },
+        {
+            "id": 6,
+            "name": "Gloss Absolu",
+            "brand": "KERASTASE",
+            "shortname": "Gloss",
+            "price": 2000,
+            "notes": "Gloss Absolue by Kérastase is the first treatment with a lamination effect*. Thanks to a unique combination of hyaluronic acid, glycolic acid and wild rose oil, the range provides deep hydration, smoothes and protects hair from unwanted frizz, giving it perfect shine and smoothness.",
+            "image": "https://5bshop.com.ua/Media/shop-15038/KERASTASE/Gloss%20Absolu%20%D0%91%D0%B5%D0%BD%20%D0%93%D1%96%D0%B4%D1%80%D0%B0%20%D0%93%D0%BB%D0%B5%D0%B9%D0%B7,%20%D0%97%D0%B2%D0%BE%D0%BB%D0%BE%D0%B6%D1%83%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D1%88%D0%B0%D0%BC%D0%BF%D1%83%D0%BD%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D0%BB%D0%B8%D1%81%D0%BA%D1%83%20%D0%B4%D0%BE%D0%B2%D0%B3%D0%BE%D0%B3%D0%BE,%20%D0%BD%D0%B5%D1%81%D0%BB%D1%83%D1%85%D0%BD%D1%8F%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B2%D0%BE%D0%BB%D0%BE%D1%81%D1%81%D1%8F,%20500%D0%BC%D0%BB.jpg"
+        }
+    ]
+}
