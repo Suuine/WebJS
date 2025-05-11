@@ -2,8 +2,9 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Shop</title>
+    <title>RiseIs Lumines</title>
     <link rel="stylesheet" href="index.css">	
+  
 </head>
 <header>
     <div class="nav-bg"></div>
@@ -11,14 +12,16 @@
     <nav>		
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a>Catalog</a></li>
+             <li id="catalog-item">
+                <a>Catalog</a>
+                <div id="catalog-dropdown" class="dropdown-content"></div>
+            </li>
         </ul>
     </nav>
 </header>
 <body>
     
-    <!-- Hero Section -->
-    <section class="hero">
+    <section id = "hero" class="hero">
         <div class="hero-content">
             <h2>Illuminate Your Style</h2>
             <p>Discover our exclusive collection of luminous fashion that shines as bright as you do</p>
@@ -26,7 +29,6 @@
         </div>
     </section>
 
-	<!-- Спливаюче вікно -->
     <div class="popup" id="popup">
         <div class="popup-content">
             <span class="close-btn" id="close-btn">×</span>
@@ -39,8 +41,7 @@
         </div>
     </div>
 
-    <!-- Features Section -->
-    <section class="features">
+    <section id = "features" class="features">
         <div class="feature-card">
             <div class="feature-icon">✨</div>
             <h3>Glow Technology</h3>
@@ -62,7 +63,7 @@
         <div class="categories-container">
             <h2>Our Product Categories</h2>
             <div class="category-grid" id="category-grid">
-                <!-- Categories will be loaded here by JavaScript -->
+                
 
             </div>
         </div>
@@ -72,13 +73,12 @@
 		<div id = "category-name"></div>
 		<div class="products-container">
 			<div class="product-grid" id="product-grid">
-				<!-- Products will be loaded here by JavaScript -->
+				
 			</div>
 		</div>
 	</section>
 
-    <!-- Newsletter Signup -->
-    <section class="newsletter">
+    <section id = "newsletter" class="newsletter">
         <h3>Join Our Luminous Community</h3>
         <p>Subscribe to get exclusive offers and early access to new collections</p>
         <form>
