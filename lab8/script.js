@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-// Hamburger menu functionality
     const hamburger = document.querySelector('.hamburger');
     const nav = document.querySelector('.main-nav');
     const catalogItem = document.getElementById('catalog-item');
@@ -10,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
         nav.classList.toggle('active');
     });
     
-    // For medium screens, handle catalog dropdown click
     if (window.matchMedia("(max-width: 767px)").matches) {
         catalogItem.addEventListener('click', function(e) {
             if (e.target === this.querySelector('a')) {
@@ -20,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Close menu when clicking on a link (for mobile)
     document.querySelectorAll('.main-nav a').forEach(link => {
         link.addEventListener('click', function() {
             if (window.matchMedia("(max-width: 767px)").matches) {
